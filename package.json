@@ -1,0 +1,15 @@
+{
+  "name": "loomvtt-cli",
+  "version": "0.1.0",
+  "description": "CLI de dados/dev tools do LoomVTT — world list, backup, pack/unpack de compendium.",
+  "type": "module",
+  "bin": {
+    "loom": "./bin/loom.mjs"
+  },
+  "scripts": {
+    "start": "node bin/loom.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.11.1"
+  }
+}
